@@ -12,7 +12,7 @@
         <!-- top header -->
         <div class="brochure-acc-cont">
             <div class="brochure-tex-cont">
-                <p>Request your free brochure for adventure inspiration. <a href="" style="color: rgb(233, 233, 103); text-decoration: none;">Order Now →</a></p>
+                <p>Request your free brochure for adventure inspiration. <a href="" style="color: #fdebb4; text-decoration: none;">Order Now →</a></p>
             </div>
             <div class="acc-btn-cont">
                 <button class="accountBtn">
@@ -27,16 +27,16 @@
         <div class="nav-cont">
 
             <a href="" class="nav-home-link">
-                <img src="./Images/exoduslogo.png" alt="exoduslogo" width="180px">
+                <img src="./Images/exoduslogo.png" alt="exoduslogo" width="100%" height="100%">
             </a>
 
             <div class="nav-link-cont">
                 <a href="" class="nav-links">Destinations</a>
                 <a href="" class="nav-links">Activities</a>
-                <a href="" class="nav-links">Ways to Travel</a>
+                <a href="" class="nav-links">Ways to <br> Travel</a>
                 <a href="" class="nav-links">Offers</a>
-                <a href="" class="nav-links">Late Gateways</a>
-                <a href="" class="nav-links">Sustainable Travel</a>
+                <a href="" class="nav-links">Late <br> Gateways</a>
+                <a href="" class="nav-links">Sustainable <br> Travel</a>
             </div>
 
             <div class="nav-li-cont">
@@ -50,13 +50,16 @@
                     <img src="./Images/callicon.png" alt="callicon" class="nav-callicon">
                     <span style="color: rgb(126, 124, 124); font-weight: 600;">020 3642 8644</span>
                 </a>
-                <li class="nav-li">
+                <li class="nav-li nav-contact-link">
                     <a href="" class="nav-contact-btn">CONTACT</a>
                 </li>
                 <li class="nav-li nav-ukicon-cont">
                     <img src="./Images/ukflagicon.png" alt="ukflagicon" width="24px" style="margin-right: 5px;">
                     <img src="./Images/downarrow.png" alt="downarrow" width="20px">
                 </li>
+                <div class="nav-menubar-cont">
+                    <img src="./Images/menubaricon.png" alt="">
+                </div>
             </div>
 
         </div>
@@ -130,8 +133,53 @@
                 </div>
             </div>
         </div>
+
+        <!-- tourism place description and form enquiry -->
+
+        <div class="place-desc-form-cont">
+
+            <div class="place-desc-cont">
+                <h1 class="place-name-h1">Armenia Tours</h1>
+                <p id="place-dsec-p1">Armenia is a mountainous nation in West Asia, a former Soviet Republic, and was one of the first Christian nations, embracing Christianity in the fourth century. This rich cultural and natural environment makes it an exciting destination for<span id="dot-span">...</span> <span id="more-desc-span">a wide range of adventure, activity and walking holidays.</span></p>
+
+                <p id="place-desc-p2">There are many pagan sites to visit as well as UNESCO World Heritage-listed churches, which are – almost without exception – built in stunning locations. Surrounded by forests, perched on the top of dramatic gorges or silhouetted before snow-capped mountains, they draw us to magnificent open spaces filled with a huge variety of trees and wild flowers. On Armenia tours we see wonderful mountains, lakes and waterfalls in the countryside – and relish cooling breezes – while the cafés and restaurants of the country’s capital, Yerevan, are proof of an emerging economy. Mount Ararat towers majestically over the city, and beautiful scenery is plentiful.</p>
+
+                <div class="show-more-btn-cont">
+                    <button id="show-more-btn" onclick="handleShowMore()">
+                        <span style="margin-right: 5px;">Show More</span>
+                        <img src="./Images/bigdownarrow.png" alt="bigdownarrow" height="20px">
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="enq-form-call-cont">
+
+                <div class="call-cont">
+                    <p>Call for general departures:</p>
+                    <a href="">020 8131 2751</a>
+                </div>
+
+                <div class="enq-form-cont">
+                    <h2 style="margin-bottom: 18px;">Make an enquiry</h2>
+                    <h4 style="margin-bottom: 18px;">Step 1 of 2</h4>
+                    <h3 style="margin-bottom: 10px;">DESTINATION</h3>
+                    <div class="form-city-cont"><span>Armenia</span></div>
+                    <h3 style="margin-bottom: 10px;">DEPARTURE</h3>
+                    <input type="text" placeholder="dd/mm/yy">
+                    <h3 style="margin-bottom: 10px;">NUMBER OF PASSENGERS</h3>
+                    <select class="form-select-tag"><option value="">Select</option></select>
+                    <h3 style="margin-bottom: 10px;">MESSAGE</h3>
+                    <textarea class="form-textarea">How can we help you?</textarea>
+                    <br>
+                    <button class="form-btn">NEXT</button>
+                </div>
+            </div>
+
+        </div>
+        
     </div>
 </body>
-</html>
 
-<script type="module" src="index.js"></script>
+<script src="index.js"></script>
+</html>
