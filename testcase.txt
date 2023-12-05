@@ -1,0 +1,11 @@
+The follwing test cases running successfullly:
+
+1. Page is loading properly for the first time.
+
+2. Page is responsive for all screens.
+
+3. All the links are working properly.
+
+4. The functionality of "Show More" and "Show Less" working properly as this was the main task of the assignment.
+
+5. The page performance is very good as checked on the website pagespeed.dev. The performance score is 99 for mobile and 95 for computers.
